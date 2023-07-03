@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Ashtanga",
+    "image": "img/slide/ashtanga.jpg"
+  },
+  {
+    "title": "Vinyasa",
+    "image": "img/slide/vinyasa.jpg",
+    "color": "text-white"
+  }
+]
