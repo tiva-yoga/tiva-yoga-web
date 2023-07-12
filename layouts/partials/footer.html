@@ -41,14 +41,14 @@
   {{ else }}
   <link href='{{ "css/webfonts.min.css" | relURL }}' rel="stylesheet" />
   {{ end }}
-  <div class="flex items-center justify-between flex-wrap bg-teal-900 p-8 text-white">
-    <div class="items-center text-xl text-grey-900 mr-6">
+  <div class="flex items-center justify-between flex-wrap bg-tivagreen-600 p-8 text-white">
+    <div class="items-center text-xl text-grey-900 font-tiva mr-6">
       {{ .Site.Params.site.name }}
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
       <div class="text-lg lg:flex-grow">
       </div>
-      <div class="flex flex-row items-center text-lg">
+      <div class="flex flex-row items-center text-lg font-tiva">
         {{ range .Site.Menus.footer }}
         <a href="{{ .URL }}" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
           {{ if not .Pre }}
@@ -61,7 +61,7 @@
       </div>
     </div>
   </div>
-  <div class="copy pl-8 py-5 bg-teal-950 text-white text-md">
+  <div class="copy pl-8 py-5 bg-tivagreen-900 text-white text-md font-tiva">
     &copy; {{site.Title}} {{ now.Year }} All Rights Reserved.
   </div>
 </footer>

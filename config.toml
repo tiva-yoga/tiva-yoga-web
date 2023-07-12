@@ -29,7 +29,7 @@ enableRobotsTXT = true
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
-    size = "h-14"
+    size = "h-20"
 
   [params.site]
     name = "Tiva Yoga"
@@ -58,22 +58,34 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
+    identifier = "workshops"
+    name = "Ateliers"
+    url = "/ateliers/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "videos"
+    name = "Videos"
+    url = "/videos/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog/"
-    weight = 2
+    weight = 4
 
   [[menu.main]]
     identifier = "about"
     name = "À propos"
     url = "/a-propos/"
-    weight = 3
+    weight = 5
 
   [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+    identifier = "reserve"
+    name = "Réserver"
+    url = "/reserver/"
+    weight = 6
 
   # Footer Menu
   [[menu.footer]]

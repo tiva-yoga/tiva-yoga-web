@@ -1,21 +1,44 @@
 [
   {
-    "title": "Le dos dans tous ses états",
-    "description": "Un programme pour travailler le dos à 360 degrés.",
+    "title": "Yoga collectif",
+    "description": "Description des séances de yoga collectif.",
     "icon": null,
-    "image": "https://delphinemarieyoga.com/wp-content/uploads/2022/05/MagaliSelviPhotographe-137-copie-1024x1024.jpg"
+    "image": "https://fakeimg.pl/350x350/bef264?text=Tiva&font=abel",
+    "link": "/cours/"
   },
   {
-    "title": "Trouver son équilibre pas à pas",
-    "description": "Un programme de Yoga qui aide à se sentir bien!",
+    "title": "Yoga individuel",
+    "description": "Description des séances de yoga individuel.",
     "icon": null,
-    "image": "https://delphinemarieyoga.com/wp-content/uploads/2022/01/MagaliSelviPhotographe-96-copie-e1653244356929-1024x1024.jpg"
+    "image": "https://fakeimg.pl/350x350/86efac/?text=Tiva&font=abel",
+    "link": "/cours/"
   },
   {
-    "title": "Prana flows",
-    "description": "Un programme pour aller plus loin dans ta pratique.",
+    "title": "Yoga enfant",
+    "description": "Description des séances de yoga enfant.",
     "icon": null,
-    "image": "https://delphinemarieyoga.com/wp-content/uploads/2021/11/MagaliSelviPhotographe-6-e1653244401586.jpg",
+    "image": "https://fakeimg.pl/350x350/6ee7b7/?text=Tiva&font=abel",
+    "link": "/cours/"
+  },
+  {
+    "title": "Yoga pré/post maternité",
+    "description": "Description des séances de yoga pré/post maternité.",
+    "icon": null,
+    "image": "https://fakeimg.pl/350x350/5eead4/?text=Tiva&font=abel",
+    "link": "/cours/"
+  },
+  {
+    "title": "Yoga en entreprise",
+    "description": "Description des séances de yoga en entreprise.",
+    "icon": null,
+    "image": "https://fakeimg.pl/350x350/67e8f9/?text=Tiva&font=abel",
+    "link": "/cours/"
+  },
+  {
+    "title": "Yoga médical",
+    "description": "Description des séances de yoga médical.",
+    "icon": null,
+    "image": "https://fakeimg.pl/350x350/7dd3fc/?text=Tiva&font=abel",
     "link": "/cours/"
   }
 ]
