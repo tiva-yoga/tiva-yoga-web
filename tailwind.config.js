@@ -17,7 +17,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      tiva: ["Abel"]
+      tiva: ['Abel', 'sans-serif']
     }
   },
   variants: {},

@@ -1821,7 +1821,7 @@ video {
 }
 
 .font-tiva {
-  font-family: Abel;
+  font-family: Abel, sans-serif;
 }
 
 .text-2xl {
