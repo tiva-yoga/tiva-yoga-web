@@ -1644,10 +1644,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-white\/\[\.25\] {
-  background-color: rgb(255 255 255 / .25);
-}
-
 .bg-white\/\[\.5\] {
   background-color: rgb(255 255 255 / .5);
 }
@@ -1938,11 +1934,6 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.text-green-950 {
-  --tw-text-opacity: 1;
-  color: rgb(5 46 22 / var(--tw-text-opacity));
 }
 
 .text-tivagreen-900 {
