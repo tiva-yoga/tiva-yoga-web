@@ -58,34 +58,51 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
-    identifier = "workshops"
-    name = "Ateliers"
-    url = "/ateliers/"
+    parent = "courses"
+    identifier = "courses-group"
+    name = "Cours collectifs"
+    url = "/cours-collectifs/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "courses"
+    identifier = "courses-private"
+    name = "Cours particuliers"
+    url = "/cours-particuliers/"
     weight = 2
 
   [[menu.main]]
-    identifier = "videos"
-    name = "Videos"
-    url = "/videos/"
+    parent = "courses"
+    identifier = "courses-kids"
+    name = "Cours enfants"
+    url = "/cours-enfants/"
     weight = 3
 
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    parent = "courses"
+    identifier = "courses-workshops"
+    name = "Ateliers"
+    url = "/ateliers/"
     weight = 4
+
+  [[menu.main]]
+    parent = "courses"
+    identifier = "courses-group"
+    name = "Cours collectifs"
+    url = "/cours-collectifs/"
+    weight = 1
 
   [[menu.main]]
     identifier = "about"
     name = "À propos"
     url = "/a-propos/"
-    weight = 5
+    weight = 2
 
   [[menu.main]]
     identifier = "reserve"
     name = "Réserver"
     url = "/reserver/"
-    weight = 6
+    weight = 3
 
   # Footer Menu
   [[menu.footer]]

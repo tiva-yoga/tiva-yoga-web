@@ -27,12 +27,56 @@
             </div>
             <div class="text-xl font-tiva">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL | safeURL }}"
-                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-tivagreen-900 hover:opacity-60 mr-8">
-                    {{ .Name }}
-                </a>
+                    {{ if .HasChildren }}
+                    <button id="dropdown-parent-{{ .Identifier }}"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-tivagreen-900 hover:opacity-60 mr-8">
+                        {{ .Name }}
+                    </button>
+                    <div id="dropdown-children-{{ .Identifier }}" 
+                        class="hidden absolute z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div class="py-1" role="none">
+                            {{ range .Children }}
+                                <a href="{{ .URL | safeURL }}"
+                                    class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1"> 
+                                    {{ .Name }}
+                                </a>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ else }}
+                        <a href="{{ .URL | safeURL }}"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-tivagreen-900 hover:opacity-60 mr-8">
+                            {{ .Name }}
+                        </a>
+                    {{ end }}
                 {{ end }}
             </div>
         </div>
     </nav>
 </header>
+<script>
+    const dropdownParentIds = [
+        {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+                '{{ .Identifier }}',
+            {{ end }}
+        {{ end }}
+    ]; 
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        dropdownParentIds.forEach(dropdownParentId => {
+            const dropdownParent = document.getElementById(`dropdown-parent-${dropdownParentId}`);
+            const dropdownChildren = document.getElementById(`dropdown-children-${dropdownParentId}`);
+
+            dropdownParent.addEventListener('click', function() {
+                dropdownChildren.classList.toggle('hidden');
+            });
+
+            document.addEventListener('click', function(event) {
+                if (!dropdownChildren.contains(event.target) && !dropdownParent.contains(event.target)) {
+                    dropdownChildren.classList.add('hidden');
+                }
+            });
+        });
+    });
+</script>
