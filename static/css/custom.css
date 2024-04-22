@@ -2,3 +2,8 @@
  This CSS file is used to override the existing styles of the theme.
  You can change the article headings, fonts, colors, etc.
 */
+
+.mopen span {
+    width: 25px;
+    margin-left: -5px;
+}
