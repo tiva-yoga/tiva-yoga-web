@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "https://tiva-yoga.netlify.app"
 title = "Tiva Yoga"
-author = "username"
+author = "Audrey Viceriat"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
@@ -42,9 +42,9 @@ enableRobotsTXT = true
     meta_description = "Tiva Yoga, un espace créé par Audrey pour vous accompanger dans votre pratique du yoga"
     meta_og_title = "Tiva Yoga"
     meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
-    meta_og_image = "http://localhost:1313/img/slide/vinyasa.webp"
-    meta_og_description = "Tiva Yoga, un espace créé par Audrey pour vous accompanger dans votre pratique du yoga"
+    meta_og_url = "https://tiva-yoga.netlify.app"
+    meta_og_image = "https://tiva-yoga.netlify.app/img/slide/anjaneyasana_2121x1414.jpg"
+    meta_og_description = "Tiva Yoga. La pause yoga pour toi."
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"
     meta_twitter_creator = "@username"
@@ -106,12 +106,13 @@ enableRobotsTXT = true
 
   # Footer Menu
   [[menu.footer]]
-    #name = "Home"
-    #url = "/"
-    #  weight = 1
+    name = "Instagram"
+    url = "https://www.instagram.com/tivayoga/"
+    pre = "<i class='fa-brands fa-instagram text-2xl'></i>"
+      weight = 1
 
   [[menu.footer]]
-    #name = "Github"
-    #url = "https://github.com/opera7133/tella"
-    #pre = "<i class='icon-github text-2xl'></i>"
-    #  weight = 2
+    name = "Facebook"
+    url = "https://www.facebook.com/tivayoga/"
+    pre = "<i class='fa-brands fa-facebook text-2xl'></i>"
+      weight = 2
