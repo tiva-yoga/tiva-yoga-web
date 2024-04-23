@@ -33,6 +33,7 @@ enableRobotsTXT = true
 
   [params.site]
     name = "Tiva Yoga"
+    copyrightLabel = "Tous droits réservés."
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
@@ -107,12 +108,12 @@ enableRobotsTXT = true
   # Footer Menu
   [[menu.footer]]
     name = "Instagram"
-    url = "https://www.instagram.com/tivayoga/"
+    url = "https://www.instagram.com/tiva.yoga/"
     pre = "<i class='fa-brands fa-instagram text-2xl'></i>"
       weight = 1
 
   [[menu.footer]]
     name = "Facebook"
-    url = "https://www.facebook.com/tivayoga/"
+    url = "https://www.facebook.com/tiva.yoga/"
     pre = "<i class='fa-brands fa-facebook text-2xl'></i>"
       weight = 2
