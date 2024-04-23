@@ -24,7 +24,7 @@ enableRobotsTXT = true
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.png"
+    main = "img/logo/logo_344x314.png"
     alt = "Tiva Yoga Logo"
 
     # The size parameter is the class name of tailwindcss
