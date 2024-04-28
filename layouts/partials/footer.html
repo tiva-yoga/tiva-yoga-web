@@ -21,14 +21,16 @@
   <script>
     function toggleNav() {
 
-      const hamburger = document.querySelector(".tham");;
-      const overlay = document.getElementById("overlay");
+      const hamburger = document.querySelector('.tham');
+      const hamburgerInner = document.querySelector('.tham-inner');
+      const overlay = document.getElementById('overlay');
       const body = document.body;
 
-      hamburger.addEventListener("click", function () {
-        overlay.classList.toggle("open");
-        hamburger.classList.toggle("tham-active");
-        body.classList.toggle("scroll-lock");
+      hamburger.addEventListener('click', function () {
+        overlay.classList.toggle('open');
+        hamburger.classList.toggle('tham-active');
+        hamburgerInner.classList.toggle('bg-white');
+        body.classList.toggle('scroll-lock');
       });
     }
     toggleNav();
