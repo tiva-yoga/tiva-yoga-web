@@ -18,8 +18,14 @@ module.exports = {
     },
     fontFamily: {
       tiva: ['Abel', 'sans-serif']
+    },
+    zIndex: {
+      '999': '999',
     }
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('tailwind-hamburgers'),
+  ],
 };

@@ -33,11 +33,11 @@
             <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}"
                     class="{{ .Site.Params.logo.size }} mr-3" src="{{ .Site.Params.logo.main | relURL }}"></a>
         </div>
-        <div class="block lg:hidden">
-            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
-                <span class="top"></span>
-                <span class="middle"></span>
-                <span class="bottom"></span>
+        <div class="block lg:hidden z-999">
+            <div class="tham tham-e-squeeze tham-w-6">
+                <div class="tham-box">
+                    <div class="tham-inner" />
+                </div>
             </div>
         </div>
         <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
@@ -81,6 +81,7 @@
             {{ end }}
         {{ end }}
     ]; 
+  
     document.addEventListener('DOMContentLoaded', function() {
         
         dropdownParentIds.forEach(dropdownParentId => {
