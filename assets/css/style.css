@@ -5538,6 +5538,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:z-900 {
+    z-index: 900;
+  }
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }

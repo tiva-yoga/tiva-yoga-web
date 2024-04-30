@@ -20,6 +20,7 @@ module.exports = {
       tiva: ['Abel', 'sans-serif']
     },
     zIndex: {
+      '900' : '900',
       '999': '999',
     }
   },
