@@ -94,15 +94,15 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
-    name = "À propos"
-    url = "/a-propos/"
-    weight = 2
-
-  [[menu.main]]
     identifier = "reserve"
     name = "Réserver"
     url = "/reserver/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "À propos"
+    url = "/a-propos/"
     weight = 3
 
   # Footer Menu
