@@ -13,8 +13,8 @@
                         {{if .image }}
                         <img src="{{ .image }}"></img>
                         {{ end }}
-                        <h2 class="text-2xl">{{ .title }}</h2>
-                        <p class="text-justify">{{ .description | markdownify }}</p>
+                        <h2 class="text-lg font-bold py-4">{{ .title }}</h2>
+                        <p class="text-sm lg:text-base text-justify">{{ .description | markdownify }}</p>
                     </div>
                 </div>
                 {{if .link }}
