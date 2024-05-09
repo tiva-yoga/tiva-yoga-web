@@ -14,7 +14,9 @@ module.exports = {
           800: "rgb(6,88,85)",
           900: "rgb(9,78,78)",
         },
-        tivaterracotta: "rgb(185,85,68)"
+        tivaterracotta: {
+          DEFAULT: "rgb(185,85,68)"
+        }
       }
     },
     fontFamily: {

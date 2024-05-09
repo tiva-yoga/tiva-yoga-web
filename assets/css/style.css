@@ -4439,6 +4439,11 @@ video {
   background-color: rgb(9 78 78 / var(--tw-bg-opacity));
 }
 
+.bg-tivaterracotta {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 85 68 / var(--tw-bg-opacity));
+}
+
 .bg-tlgray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
