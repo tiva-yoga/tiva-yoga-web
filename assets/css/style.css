@@ -4441,7 +4441,7 @@ video {
 
 .bg-tivaterracotta {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 85 68 / var(--tw-bg-opacity));
+  background-color: rgb(198 110 78 / var(--tw-bg-opacity));
 }
 
 .bg-tlgray-200 {
@@ -4474,6 +4474,11 @@ video {
 
 .bg-white\/\[\.66\] {
   background-color: rgb(255 255 255 / .66);
+}
+
+.bg-tivaterracotta-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 219 212 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-100 {
@@ -4818,7 +4823,7 @@ video {
 
 .text-tivaterracotta {
   --tw-text-opacity: 1;
-  color: rgb(185 85 68 / var(--tw-text-opacity));
+  color: rgb(198 110 78 / var(--tw-text-opacity));
 }
 
 .text-white {
