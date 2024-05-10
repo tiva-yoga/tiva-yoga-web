@@ -19,7 +19,7 @@ enableRobotsTXT = true
 [params]
 
   showBlog = false
-  mainSections = ['blog']
+  mainSections = []
 
   googleFonts = true
 
@@ -46,9 +46,6 @@ enableRobotsTXT = true
     meta_og_url = "https://tiva-yoga.com"
     meta_og_image = "https://tiva-yoga.com/img/logo/logo_344x314.png"
     meta_og_description = "Tiva Yoga. La pause yoga pour toi."
-    meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@username"
-    meta_twitter_creator = "@username"
 
 [menu]
 
