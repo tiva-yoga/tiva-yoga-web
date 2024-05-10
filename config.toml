@@ -108,7 +108,7 @@ enableRobotsTXT = true
   # Footer Menu
   [[menu.footer]]
     name = "Instagram"
-    url = "https://www.instagram.com/tiva.yoga/"
+    url = "https://www.instagram.com/tiva_yoga/"
     pre = "<i class='fa-brands fa-instagram text-2xl'></i>"
       weight = 1
 
