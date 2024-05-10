@@ -44,7 +44,7 @@
   {{ else }}
   <link href='{{ "css/webfonts.min.css" | relURL }}' rel="stylesheet" />
   {{ end }}
-  <div class="flex items-center justify-between flex-wrap bg-tivaterracotta-light p-8 text-white">
+  <div class="flex items-center justify-between flex-wrap bg-tivaterracotta-light p-8 text-tivaterracotta">
     <div class="items-center text-xl text-grey-900 font-tiva mr-6">
       {{ .Site.Params.site.name }}
     </div>
@@ -53,7 +53,7 @@
       </div>
       <div class="flex flex-row items-center text-lg font-tiva">
         {{ range .Site.Menus.footer }}
-        <a href="{{ .URL }}" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+        <a href="{{ .URL }}" class="block mt-4 lg:inline-block lg:mt-0 text-tivaterracotta hover:text-white mr-8">
           {{ if not .Pre }}
           {{ .Name }}
           {{ else }}
