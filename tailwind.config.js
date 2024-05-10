@@ -15,7 +15,7 @@ module.exports = {
           900: "rgb(9,78,78)",
         },
         tivaterracotta: {
-          light: "rgb(241,219,212)",
+          light: "rgb(255,246,227)",
           DEFAULT: "rgb(200,117,99)"
         }
       }
